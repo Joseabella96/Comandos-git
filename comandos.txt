@@ -6,5 +6,5 @@
  git config --global core.autocrlf true
  git config --global init.defaultBranch main
  
- Ver configuración
+ Ver configuracióngit autocrlf
  git config --global -e
