@@ -1,1 +1,1 @@
-# Comandos-git
+#intinerario-de-la-semana
