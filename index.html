@@ -9,40 +9,17 @@
     
 <Script>
 
-var dia = 7;
+    var w = prompt("Ingresa un Num")
 
-switch (dia){
-    case 1:
-        document.write("Lunes");
-        break;
-
-    case 2:
-        document.write("Martes");
-        break; 
-        
-        case 3:
-        document.write("Miercoles");
-        break;
-
-        case 4:
-        document.write("Jueves");
-        break;
-
-        case 5:
-        document.write("Viernes");
-        break;
-
-        case 6:
-        document.write("Sabado");
-        break;
-
-        case 7:
-        document.write("Domingo");
-        break;
-
-        default:
-            document.write("El dia es incorrecto")
+for (i=0; i<=w; i++){
+    document.write(i + " ")
 }
+
+for (i=w-1; i>=0; i--){
+    document.write(i + " ")
+}
+
+
 
 </Script>
 
